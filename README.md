@@ -4,7 +4,7 @@
 Выполнено по макету с соблюдением Pixel-Perfect 
 [Макет](https://www.figma.com/design/iuXLXifXgv4ZCzad0KeYKr/Test-Task?node-id=2249-2298&t=sGOczqEiidD9VV8x-0)
 
-**Демо:** []()
+**Демо:** [https://online-courses-ochre.vercel.app](https://online-courses-ochre.vercel.app)
 
 ## Функции
 
