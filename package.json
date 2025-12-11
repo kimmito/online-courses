@@ -9,7 +9,8 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^7.2.4"
+    "vite": "^7.2.4",
+    "vite-plugin-imagemin": "^0.6.1"
   },
   "dependencies": {
     "sass": "^1.95.1"

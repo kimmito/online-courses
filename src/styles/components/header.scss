@@ -1,6 +1,9 @@
 .header {
     text-align: center;
     margin: 40px 52px 0 auto;
+    @media (max-width: 920px) {
+            margin: 20px;
+        }
     &__pre-title {
         font-size: 16px;
         letter-spacing: 1px;
@@ -24,5 +27,9 @@
         position: absolute;
         right: -48px;
         top: 50px;
+        z-index: -1;
+                @media (max-width: 980px) {
+            display: none;
+        }
     }
 }

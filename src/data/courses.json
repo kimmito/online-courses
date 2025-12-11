@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "title": "The Ultimate Google Ads Training Course",
+        "author": "Jerome Bell",
+        "price": 100,
+        "category": "Marketing",
+        "image": "/assets/images/person1.webp",
+        "alt": "Portrait of Jerome Bell on yellow background"
+    },
+    {
+        "id": 2,
+        "title": "Product Management Fundamentals",
+        "author": "Marvin McKinney",
+        "price": 480,
+        "category": "Management",
+        "image": "/assets/images/person2.webp",
+        "alt": "Portrait of Marvin McKinney on yellow background"
+    },
+    {
+        "id": 3,
+        "title": "HR Management and Analytics",
+        "author": "Leslie Alexander",
+        "price": 200,
+        "category": "HR & Recruiting",
+        "image": "/assets/images/person3.webp",
+        "alt": "Portrait of Leslie Alexander on yellow background"
+    },
+    {
+        "id": 4,
+        "title": "Brand Management & PR Communications",
+        "author": "Kristin Watson",
+        "price": 530,
+        "category": "Marketing",
+        "image": "/assets/images/person4.webp",
+        "alt": "Portrait of Kristin Watson on yellow background"
+    },
+    {
+        "id": 5,
+        "title": "Graphic Design Basic",
+        "author": "Guy Hawkins",
+        "price": 500,
+        "category": "Design",
+        "image": "/assets/images/person5.webp",
+        "alt": "Portrait of Guy Hawkins on yellow background"
+    },
+    {
+        "id": 6,
+        "title": "Business Development Management",
+        "author": "Dianne Russell",
+        "price": 400,
+        "category": "Management",
+        "image": "/assets/images/person6.webp",
+        "alt": "Portrait of Dianne Russell on yellow background"
+    },
+    {
+        "id": 7,
+        "title": "Highload Software Architecture",
+        "author": "Brooklyn Simmons",
+        "price": 600,
+        "category": "Development",
+        "image": "/assets/images/person7.webp",
+        "alt": "Portrait of Brooklyn Simmons on yellow background"
+    },
+    {
+        "id": 8,
+        "title": "Human Resources – Selection and Recruitment",
+        "author": "Kathryn Murphy",
+        "price": 150,
+        "category": "HR & Recruiting",
+        "image": "/assets/images/person8.webp",
+        "alt": "Portrait of Kathryn Murphy on yellow background"
+    },
+    {
+        "id": 9,
+        "title": "User Experience. Human-centered Design",
+        "author": "Cody Fisher",
+        "price": 240,
+        "category": "Design",
+        "image": "/assets/images/person9.webp",
+        "alt": "Portrait of Cody Fisher on yellow background"
+    },
+    {
+        "id": 10,
+        "title": "Highload Software Architecture",
+        "author": "Brooklyn Simmons",
+        "price": 600,
+        "category": "Development",
+        "image": "/assets/images/person7.webp",
+        "alt": "Portrait of Brooklyn Simmons on yellow background"
+    },
+    {
+        "id": 11,
+        "title": "Human Resources – Selection and Recruitment",
+        "author": "Kathryn Murphy",
+        "price": 150,
+        "category": "HR & Recruiting",
+        "image": "/assets/images/person8.webp",
+        "alt": "Portrait of Kathryn Murphy on yellow background"
+    },
+    {
+        "id": 12,
+        "title": "User Experience. Human-centered Design",
+        "author": "Cody Fisher",
+        "price": 240,
+        "category": "Design",
+        "image": "/assets/images/person9.webp",
+        "alt": "Portrait of Cody Fisher on yellow background"
+    }
+]

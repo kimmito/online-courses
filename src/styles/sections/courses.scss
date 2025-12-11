@@ -14,6 +14,10 @@
         position: absolute;
         top: 24%;
         left: 55px;
+        z-index: -2;
+                        @media (max-width: 920px) {
+            display: none;
+        }
     }
     &__grid {
         margin-top: 60px;
@@ -22,6 +26,9 @@
             grid-template-columns: repeat(auto-fit, minmax(390px, 1fr));
             gap: 27px;
             margin: 0 auto;
+                            @media (max-width: 480px) {
+            grid-template-columns: 1fr
+        }
         }
     }
     &__load-more {

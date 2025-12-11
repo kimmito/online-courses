@@ -1,52 +1,67 @@
 @use '../variables.scss' as *;
 @use '../mixins/mixins' as *;
 
-.navigation{
-  margin: 85px auto 0;
-  display: flex;
-  flex-direction: row; 
-  gap: 100px;
-  &__list{
+.navigation {
+    margin: 85px auto 0;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
-    width: 815px;
-    gap: 11px;
-  }
-  &__item{
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 160%;
-    color: $gray600;
-    padding: 3px 20px 10px;
-    border: 1px solid #fff;
-    border-radius: 4px;
-    white-space: nowrap;
-    transition: transform 0.2s ease;
-    &:hover {
-        transform: translateY(-2px);
+    gap: 100px;
+    @media (max-width: 1230px) {
+      justify-content: center;
     }
-    &.active, &:hover{
-      color: $primary;
-      border: 1px solid $primary;
-      cursor: pointer;
+    &__list {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        width: 815px;
+        gap: 10px;
+        @media (max-width: 980px) {
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
     }
-  }
-  &__count{
-    font-weight: 900;
-    font-size: 10px;
-    text-align: start;
-    vertical-align: text-bottom
-  }
-  &__search{
-    max-width: 20vw;
-    width: 315px;
-    border: 1px solid $gray400;
-    border-radius: 4px;
-    color: $gray600;
-    font-size: 14px;
-    padding: 10px 0 10px 15px;
-    background: url('/svg/search.svg') no-repeat 15px 15px;
-    background-position-x: 95%;
-  }
+    &__item {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 160%;
+        color: $gray600;
+        padding: 3px 20px 10px;
+        border: 1px solid #fff;
+        border-radius: 4px;
+        white-space: nowrap;
+        transition: transform 0.2s ease;
+        &:hover {
+            transform: translateY(-2px);
+        }
+        &.active,
+        &:hover {
+            color: $primary;
+            border: 1px solid $primary;
+            cursor: pointer;
+        }
+    }
+    &__count {
+        font-weight: 900;
+        font-size: 10px;
+        text-align: start;
+        vertical-align: text-bottom;
+    }
+    &__search {
+        max-width: 20vw;
+        width: 315px;
+        border: 1px solid $gray400;
+        border-radius: 4px;
+        color: $gray600;
+        font-size: 14px;
+        padding: 13px 0 13px 13px;
+        background: url('/svg/search.svg') no-repeat 10px;
+        background-position-x: 95%;
+        @media (max-width: 1230px) {
+            max-width: 90vw;
+            width: 300px;
+            margin: 0 auto;
+        }
+    }
 }
