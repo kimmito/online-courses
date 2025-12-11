@@ -1,0 +1,40 @@
+@use '../variables.scss' as *;
+@use '../mixins/mixins' as *;
+@use '../components/coursesCard.scss';
+
+.courses {
+    position: relative;
+    background-color: red;
+    background: url('/svg/triangles.svg') no-repeat 85px 85px;
+    background-position: calc(100% - 58px) 55%;
+    &::after {
+        content: '';
+        background: url('/svg/shapes.svg') no-repeat 100%;
+        width: 85px;
+        height: 45px;
+        position: absolute;
+        top: 24%;
+        left: 55px;
+    }
+    &__grid {
+        margin-top: 60px;
+        &__list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(390px, 1fr));
+            gap: 27px;
+            margin: 0 auto;
+        }
+    }
+    &__load-more {
+        width: 165px;
+        margin: 75px auto;
+        &__button{
+          border: 0;
+          color: $gray800;
+          font-weight: 700;
+          font-size: 16px;
+          padding-left: 60px;
+          background: url('/svg/download.svg') no-repeat 25px;
+        }
+    }
+}

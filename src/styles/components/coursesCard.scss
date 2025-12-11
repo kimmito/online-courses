@@ -1,0 +1,45 @@
+@use '../variables.scss' as *;
+@use '../mixins/mixins' as *;
+
+.courses__card {
+    width: 390px;
+    max-width: 30vw;
+    border: 1px solid $gray300;
+    box-shadow: 0px 30px 40px $gray400;
+    border-radius: 4px;
+    &__desc{
+      margin: 15px 23px 25px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      &__tags-list{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+      }
+      &__tags-item{
+        padding: 1px 8px;
+        background-color: rgb(0, 255, 157);
+        color: white;
+        border-radius: 4px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+      }
+      &__footer{
+        display: flex;
+        margin-top: -2px;
+        gap: 7px;
+        &__price{
+          font-weight: 700;
+          font-size: 18px;
+          color: $danger;
+        }
+        &__author{
+          color: $gray700;
+          font-size: 18px;
+          font-weight: 400;
+        }
+      }
+    }
+  }

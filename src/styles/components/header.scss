@@ -1,0 +1,28 @@
+.header {
+    text-align: center;
+    margin: 40px 52px 0 auto;
+    &__pre-title {
+        font-size: 16px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        margin-bottom: 7px;
+    }
+
+    &__title {
+        font-size: 46px;
+        font-weight: 900;
+        line-height: 130%;
+    }
+    &::after{
+        content: '';
+        display: block;
+        width: 150px;
+        height: 180px;
+        background-image: url('/svg/dots.svg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        right: -48px;
+        top: 50px;
+    }
+}
