@@ -22,9 +22,14 @@
     border: 1px solid #fff;
     border-radius: 4px;
     white-space: nowrap;
+    transition: transform 0.2s ease;
+    &:hover {
+        transform: translateY(-2px);
+    }
     &.active, &:hover{
       color: $primary;
       border: 1px solid $primary;
+      cursor: pointer;
     }
   }
   &__count{
